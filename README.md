@@ -9,5 +9,5 @@
    It contains all the rails framework and the embedded ruby code into it.
    Alhamdulillah 
 
-   Rails is a greate innovation
+   Rails is a great innovation
 =============================
