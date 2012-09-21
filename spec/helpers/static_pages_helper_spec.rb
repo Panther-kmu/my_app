@@ -11,5 +11,15 @@ require 'spec_helper'
 #   end
 # end
 describe StaticPagesHelper do
-  pending "add some examples to (or delete) #{__FILE__}"
+  describe "full_title" do
+
+    it "should return base title if input is empty" do
+      helper.full_title('').should == 'Ruby on Rails Tutorial My App'
+    end
+
+    it "should return base title appended with input if input is not empty" do
+      helper.full_title('foo').should == 'Ruby on Rails Tutorial My App | foo'
+    end
+
+  end
 end
